@@ -1,1 +1,14 @@
-
+# JavaShell
+  - Use JShell OS shell scripting
+    - + crossplatform
+    - - overhead by JVM
+    - - More code than OS scripting language
+  - Greping
+    - performance
+      - 33 secs by windows shell script
+      - 27 secs by linux shell script on VM
+      - 35 secs by jshell-based scripting on Linux on VM
+  - More complex scripting
+    - Java is extream faster than bash
+  - ハズレ
+    - 2時間のセッションが20分で終わった・・・
