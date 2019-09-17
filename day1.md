@@ -2,6 +2,7 @@
 Skipped to keep better seat for keynote
 
 # Java Keynote: The Future of Java Is Now [KEY1099] (10:00 〜 12:00) @ Moscone North - Hall F
+TODO
 
 # Open Source Java-Based Tools: Hacking on Cool Open Source Projects [DEV6544] (12:30 〜 13:15) @ Moscone South - Room 314
 My session
