@@ -75,6 +75,36 @@
     - Improvements are in not only GC, but also JVM
 
 # Oracle Code One Keynote [KEY6320] (14:30 〜 16:30) @ Moscone North - Hall F
+
 # Whats New in the Java Language and Tooling [DEV4681] (17:00 〜 17:45) @ Moscone South - Room 301
+- Languages
+  - LVTI
+  - Switch expr
+  - TextBlock
+  - Record, Sealed Pattern match
+- Javadoc
+  - cleaner simpler navigation bar
+- Panama
+  - Memory access API is delivered first
+
 # Cross-Platform Development with GraalVM [DEV3907] (18:00 〜 18:45) @ Moscone South - Room 301
+- They tring to target GraalVM to mobile platform like iOS, Android, Windows Phone
+  - Use LLVM which Apple support
+  - For JavaFX, they use native codes to talk with the device
+    - Gluon working on it
+  - dynamic code is not allowed Apple platform
+    - No way to JIT
+    - Interpretering is slow
+    - Only way to optimize is AOT, native-image
+  - Gradle/Maven plugin integration to develop JavaFX based iOS/Android app
+    - Ex: https://github.com/gluonhq/ChatApp
+- Comparing React Native vs JFX on GraalVM
+  - Performance is better in case of JFX on GraalVM
+  - Not Hot code update for JFX on GraalVM because of AOT
+- Vibrant Community
+- Future work
+  - GC on iOS
+  - Running on Android
+  - interpreter mode for fast development
+
 # Groundbreakers Unconference [UNC1104] (19:00 〜 22:00) @ Moscone South (Level 3) - The Terrace
